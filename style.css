@@ -1,0 +1,49 @@
+body {
+  background-color: cadetblue;
+}
+h1 {
+  color: rgb(23, 139, 154);
+  text-align: center;
+}
+
+/* Estilos para todos los párrafos */
+p {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Estilos para la clase 'caja' */
+
+.container0 {
+  text-align: left;
+  background-color: darkslategrey;
+  padding: 50px;
+}
+.container1 {
+  background-color: darkslategrey;
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10%;
+  margin-top: 10px;
+  contain: content;
+}
+.container2 {
+  text-align: justify;
+  contain: content;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: cadetblue;
+  margin-top: 20%;
+}
+.container3 {
+  color: rgb(23, 139, 154);
+  text-align: left;
+  flex-direction: row;
+  background-color: darkslategrey;
+  padding: 10px;
+}
+.class {
+  color: rgb(23, 139, 154);
+  text-align: justify;
+}
